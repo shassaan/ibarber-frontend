@@ -62,7 +62,7 @@ const AutoCompleteBox = ()=> {
         <TextField
           {...params}
           label="Search saloons"
-          variant="standard"
+          variant="filled"
           InputProps={{
             ...params.InputProps,
   

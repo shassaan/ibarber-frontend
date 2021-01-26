@@ -13,6 +13,7 @@ import FormGroup from '@material-ui/core/FormGroup';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import AutoCompleteBox from '../Autocomplete/AutoCompleteBox';
+import { Container } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -51,8 +52,13 @@ export default function MenuAppBar() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={()=>setOpen(true)}>
             <MenuIcon />
           </IconButton>
+          <Typography variant="h4">
+            iBarber
+          </Typography>
+           <Container>
            <AutoCompleteBox/>
-         
+           </Container>
+           
         </Toolbar>
       </AppBar>
       <SwipeableDrawer
@@ -63,7 +69,7 @@ export default function MenuAppBar() {
 
             >
                
-                <h2>helo</h2>
+                <h2>heldfggggggggggo</h2>
             </SwipeableDrawer>
     </div>
   );
