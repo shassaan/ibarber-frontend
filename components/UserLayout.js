@@ -1,11 +1,12 @@
+import { Container } from "@material-ui/core";
 import Footer from "./Footer/Footer";
 import UserHeader from "./Header/UserHeader";
 
 const UserLayout = props =>{
-    return <div className="container-fluid">
+    return <Container>
         <UserHeader />
         {props.children}
         <Footer/>
-    </div>
+    </Container>
 }
 export default UserLayout;
