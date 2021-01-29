@@ -10,7 +10,11 @@
 
 # next.js
 /.next/
-/out/
+/components/
+/pages/
+/public/
+/styles/
+
 
 # production
 /build
