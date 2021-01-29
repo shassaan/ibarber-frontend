@@ -10,8 +10,7 @@ import { Button } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
-    margin:4
+    display: 'flex'
   },
   details: {
     display: 'flex',
