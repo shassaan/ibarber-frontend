@@ -10,7 +10,7 @@ function sleep(delay = 0) {
   });
 }
 
-const AutoCompleteBox = ()=> {
+const AutoCompleteBox = () => {
   const [open, setOpen] = React.useState(false);
   const [options, setOptions] = React.useState([]);
   const loading = open && options.length === 0;
@@ -46,7 +46,7 @@ const AutoCompleteBox = ()=> {
   return (
     <Autocomplete
       id="asynchronous-demo"
-      style={{ width: '100%',color:'white' }}
+      style={{ width: '100%', color: 'white' }}
       open={open}
       onOpen={() => {
         setOpen(true);
@@ -65,7 +65,7 @@ const AutoCompleteBox = ()=> {
           variant="filled"
           InputProps={{
             ...params.InputProps,
-  
+
             endAdornment: (
               <React.Fragment>
                 {loading ? <CircularProgress color="inherit" size={20} /> : null}
